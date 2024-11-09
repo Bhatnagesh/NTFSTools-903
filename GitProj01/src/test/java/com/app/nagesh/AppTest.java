@@ -17,4 +17,13 @@ public class AppTest {
        assertEquals(expected,actual);
     	
     }
+    @Test
+    public void testSumWithNegatives() {
+    	
+    	int expected=-300;
+        App app=new App();
+       int actual= app.sumOfTwoDigit(-100,-200);
+       assertEquals(expected,actual);
+    	
+    }
 }
