@@ -2,7 +2,17 @@ package com.app.nagesh;
 
 
 public class App {
+	
+	public int sumOfTwoDigit(int x,int y)
+	{
+		return x+y;
+	}
+	
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+    	
+    	App app=new App();
+    	System.out.println("sum is "+app.sumOfTwoDigit(100,200));
+       
     }
 }
+  

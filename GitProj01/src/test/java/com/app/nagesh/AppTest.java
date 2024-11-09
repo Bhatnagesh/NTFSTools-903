@@ -1,19 +1,20 @@
 package com.app.nagesh;
 
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-/**
- * Unit test for simple App.
- */
+
 public class AppTest {
 
-    /**
-     * Rigorous Test :-)
-     */
+    
     @Test
-    public void shouldAnswerWithTrue() {
-        assertTrue(true);
+    public void testSumWithPositives() {
+    	
+    	int expected=300;
+        App app=new App();
+       int actual= app.sumOfTwoDigit(100,200);
+       assertEquals(expected,actual);
+    	
     }
 }
