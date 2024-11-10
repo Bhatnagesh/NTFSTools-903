@@ -11,7 +11,7 @@ public class App {
     public static void main(String[] args) {
     	
     	App app=new App();
-    	System.out.println("sum is "+app.sumOfTwoDigit(100,200));
+    	System.out.println("ssum is "+app.sumOfTwoDigit(100,200));
        
     }
 }
